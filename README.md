@@ -25,9 +25,11 @@ script.js (Relative path:Assets/Assets/script.js)
 README.md(Relative path:README.md)
 
 ## Application live link
+https://osir-is.github.io/weather-dashboard/
 
 ## Screenshots
-![image](https://user-images.githubusercontent.com/78626961/125211564-14b4c200-e29f-11eb-82b3-21bf76197c06.png)
+![image](https://user-images.githubusercontent.com/78626961/125211729-5a25bf00-e2a0-11eb-8e07-fecd020fe294.png)
+
 ## Tools
 
 Github ,

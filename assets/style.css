@@ -1,0 +1,197 @@
+.toppage{
+   padding: 10px;
+   text-align: center;
+   background: #3A398E ;
+   color:white;
+   font-size: 15px;
+   width:max-width;
+}
+.search-btn{
+    background: #7291E1;
+    color:white;
+}
+
+
+
+.previous-search1{
+position: absolute;
+width: 347px;
+height: 73px;
+left: 15px;
+top: 302px;
+
+background: #C4C4C4;
+}
+
+/* Rectangle 24 */
+
+
+.previous-search2{
+position: absolute;
+width: 347px;
+height: 73px;
+left: 15px;
+top: 411px;
+
+background: #C4C4C4;
+}
+
+/* Rectangle 25 */
+
+.previous-search3{
+position: absolute;
+width: 347px;
+height: 73px;
+left: 15px;
+top: 536px;
+
+background: #C4C4C4;
+
+}
+/* Rectangle 26 */
+
+.previous-search4{
+position: absolute;
+width: 347px;
+height: 73px;
+left: 15px;
+top: 661px;
+
+background: #C4C4C4;
+
+}
+/* Rectangle 27 */
+
+.previous-search5{
+position: absolute;
+width: 347px;
+height: 73px;
+left: 15px;
+top: 786px;
+
+background: #C4C4C4;
+}
+
+.previous-search6{
+
+        position: absolute;
+        width: 347px;
+        height: 73px;
+        left: 15px;
+        top: 786px;
+        
+        background: #C4C4C4;
+        
+}
+.block1{
+    position: absolute;
+width: 161px;
+height: 329px;
+left: 406px;
+top: 573px;
+
+background: #343C4F
+
+}
+.card-text{
+    color:white
+}
+
+
+/* Rectangle 33 */
+
+.block2{
+position: absolute;
+width: 161px;
+height: 329px;
+left: 1254px;
+top: 573px;
+
+background: #343C4F
+}
+.block3{
+position: absolute;
+width: 161px;
+height: 329px;
+left: 1040px;
+top: 573px;
+
+background: #343C4F;
+}
+
+/* Rectangle 35 */
+.block4{
+position: absolute;
+width: 161px;
+height: 329px;
+left: 826px;
+top: 573px;
+
+background: #343C4F;
+}
+/* Rectangle 36 */
+
+.block5{
+position: absolute;
+width: 161px;
+height: 329px;
+left: 612px;
+top: 573px;
+
+background: #343C4F;
+}
+
+
+.header5{
+position: absolute;
+width: 570px;
+height: 52px;
+left: 803px;
+top: 484px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+}
+.mainDisplay{
+    position: absolute;
+width: 996px;
+height: 305px;
+left: 406px;
+top: 167px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.timeDate{
+position: absolute;
+width: 792px;
+height: 30px;
+left: 487px;
+top: 122px;
+
+background: #FFFFFF;
+}
+.currentDay{
+    position: absolute;
+width: 262px;
+height: 39px;
+left: 881px;
+top: 105px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+
+}

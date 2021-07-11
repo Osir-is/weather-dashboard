@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div class="toppage">
+        <h1 class= "main-header" >Weather Dashboard</h1>
+   </div>
+   
+    <header>
+            <div class="city-search">
+        <h2 class= "Search-bar-header">Search for a City: </h2>     
+        
+            <input class="inputValue" type="text" placeholder="Enter a city name..">
+            
+            <button class="search-btn"type="button" value = "submit">Search Weather</button>
+        </div>
+    </header>
+<section class="searchedLocationBtn">
+<h2>Search History:</h2>
+<div class = previousSearches>
+    <button class="previous-search1"type="button" value = "submit"></button>
+    <button class="previous-search2"type="button" value = "submit"></button>
+    <button class="previous-search3"type="button" value = "submit"></button>
+    <button class="previous-search4"type="button" value = "submit"></button>
+    <button class="previous-search5"type="button" value = "submit"></button>
+    <button class="previous-search6"type="button" value = "submit"></button>
+
+</div>
+
+
+</section>
+<section class ="5-day_forecast">
+    <h1 class ="header5"><b>5-Day Forecast:</b></h1>
+    <div> 
+        <div class="row five-day-box justify-content-between">
+            <div class="5-day forecast panel">
+                <div class="block1">
+              <p class="card-title font-weight-bold date" id="Date1"></p>
+              <p class="card-text" style="height: 80px">
+                
+              </p>
+              <p class="card-text"><b>Temp:</b>
+                <span id="tempDay1">--</span> 
+              <p class="card-text"><b>Wind:</b>
+                <span id="windDay1">--</span>
+              </p>
+              <p class="card-text"><b>Humidity:</b>
+                <span id="humidityDay1">--</span>
+              </p>   
+            </div>
+            <!--Block 2-->
+
+              <div class="row five-day-box justify-content-between">
+                <div class="5-day forecast panel">
+                    <div class="block2">
+                  <p class="card-title font-weight-bold date" id="Date1"></p>
+                  <p class="card-text" style="height: 80px">
+                    
+                  </p>
+                  <p class="card-text"><b>Temp:</b>
+                    <span id="tempDay1">--</span> 
+                  <p class="card-text"><b>Wind:</b>
+                    <span id="windDay1">--</span>
+                  </p>
+                  <p class="card-text"><b>Humidity:</b>
+                    <span id="humidityDay1">--</span>
+                  </p>   
+                </div>
+                  <!--block 3-->
+                  <div class="row five-day-box justify-content-between">
+                    <div class="5-day forecast panel"></div>
+                        <div class="block3">
+                      <p class="card-title font-weight-bold date" id="Date1"></p>
+                      <p class="card-text" style="height: 80px">
+                        
+                      </p>
+                      <p class="card-text"><b>Temp:</b>
+                        <span id="tempDay1">--</span> 
+                      <p class="card-text"><b>Wind:</b>
+                        <span id="windDay1">--</span>
+                      </p>
+                      <p class="card-text"><b>Humidity:</b>
+                        <span id="humidityDay1">--</span>
+                      </p>   
+                    </div>
+                      <!--block 4-->
+                      <div class="row five-day-box justify-content-between">
+                        <div class="5-day forecast panel">
+                            <div class="block4">
+                          <p class="card-title font-weight-bold date" id="Date1"></p>
+                          <p class="card-text" style="height: 80px">
+                            
+                          </p>
+                          <p class="card-text"><b>Temp:</b>
+                            <span id="tempDay1">--</span> 
+                          <p class="card-text"><b>Wind:</b>
+                            <span id="windDay1">--</span>
+                          </p>
+                          <p class="card-text"><b>Humidity:</b>
+                            <span id="humidityDay1">--</span>
+                          </p>   
+                        </div>
+                          <!--block 5-->
+                          <div class="row five-day-box justify-content-between">
+                            <div class="5-day forecast panel">
+                                <div class="block5">
+                              <p class="card-title font-weight-bold date" id="Date1"></p>
+                              <p class="card-text" style="height: 80px">
+                                
+                              </p>
+                              <p class="card-text"><b>Temp:</b>
+                                <span id="tempDay1">--</span> 
+                              <p class="card-text"><b>Wind:</b>
+                                <span id="windDay1">--</span>
+                              </p>
+                              <p class="card-text"><b>Humidity:</b>
+                                <span id="humidityDay1">--</span>
+                              </p>   
+                            </div>
+    </div>
+
+
+
+</section>
+
+<section class ="main-forecast">
+    <div class="mainDisplay">
+    <h3 class="Temp">Temp:</h3>
+    <h3 class="wind">Wind:</h3>
+    <h3 class="Humidity">Humidity:</h3>
+    <h3 class="UV">UV index:</h3>
+</div>
+
+</section>
+<section>
+    <div class="timeate">
+        <p id="currentDay" class="lead"></p>
+       <!--p id="currentTime" class="lead"></p>
+--> <
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="assets/script.js"></script>
+</html>
